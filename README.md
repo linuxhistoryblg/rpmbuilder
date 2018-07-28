@@ -1,5 +1,5 @@
 # rpmbuilder
-Automated RPM building for single file distribution
+# Automated RPM building for single file distribution
 rpmbuilder is a bash script which takes a single file and packages it as an rpm.
 
 USAGE: rpmbuilder filename
