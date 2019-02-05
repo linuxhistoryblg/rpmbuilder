@@ -6,7 +6,7 @@ VERSION=1.0
 START_PWD=${PWD}
 PACKAGE_OUT=~/${PACKAGE}-BUILD/RPMS
 
-#RPM SHOULD BE BUILD AS A NON-PRIV USER
+#RPM SHOULD BE BUILT AS A NON-PRIV USER
 if [ "${UID}" -eq 0 ];then
 	echo "You are currently logged in as root. Please run as a non-privileged user"
 	exit 1
